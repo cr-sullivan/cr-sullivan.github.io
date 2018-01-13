@@ -16,3 +16,9 @@ git add *
 git commit -m "first commit"
 git remote add origin https://github.com/cr-sullivan/cr-sullivan.github.io.git
 git push -u origin master
+
+To change a file, update git and push up to github:
+$ git add crsReadme.txt
+$ git commit -m "Update crsReadMe.txt for git add *"
+$ git push -u origin master
+
